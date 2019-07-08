@@ -1,13 +1,9 @@
 <template>
-  <swiper :options="swiperOption"
-          class="box">
-    <swiper-slide v-for="(slide, index) in swiperSlides"
-                  :key="index">
-      <img style="width:100%"
-           :src="slide.imgurl">
+  <swiper :options="swiperOption" class="box">
+    <swiper-slide v-for="(slide, index) in swiperSlides" :key="index">
+      <img style="width:100%" :src="slide.imgurl">
     </swiper-slide>
-    <div class="swiper-pagination"
-         slot="pagination"></div>
+    <div class="swiper-pagination" slot="pagination"></div>
   </swiper>
 </template>
 

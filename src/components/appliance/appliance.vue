@@ -1,6 +1,7 @@
 <template>
-  <div>
-    <HomeNav></HomeNav>
+  <div class="appliance">
+    <Search></Search>
+    <HomeNav class="slider"></HomeNav>
     <Advertising></Advertising>
     <Fenlei></Fenlei>
     <Kuaiqiang></Kuaiqiang>
@@ -15,6 +16,7 @@ import Fenlei from './components/fenlei.vue'
 import Kuaiqiang from './components/kuaiqiang.vue'
 import Mi from './components/mi.vue'
 import Zuihuo from './components/promotion.vue'
+import Search from '@/common/Search'
 export default {
   data () {
     return {
@@ -27,9 +29,13 @@ export default {
     Fenlei,
     Kuaiqiang,
     Mi,
-    Zuihuo
+    Zuihuo,
+    Search
   }
 }
 </script>
-<style scoped>
+<style lang="less" scoped>
+.appliance {
+  margin-top: 80px;
+}
 </style>

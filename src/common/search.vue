@@ -28,6 +28,7 @@ export default {
     width: 100%;
     height: 30px;
     display: flex;
+    z-index: 9999;
     .yonghu {
         width: 30px;
         height: 30px;

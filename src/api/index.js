@@ -92,3 +92,37 @@ export function getTmi2 () {
 export function getShow () {
   return axios.get('show')
 }
+
+// lfz
+
+export function getBanner () {
+  return axios.get('banner')
+}
+
+export function getHomeCate () {
+  return axios.get('category')
+}
+
+export function getkuaiqiang () {
+  return axios.get('weipinkuaiqiang')
+}
+
+// 地区馆接口
+export function getBrandList () {
+  return axios.get('brandList')
+}
+
+// 猜你喜欢接口
+export function getCainixihuan () {
+  return axios.get('cainixihuan')
+}
+
+// 更多推荐接口
+export function getgengduotuijian () {
+  return axios.get('gengduotuijian')
+}
+
+// 页头图片接口
+export function getYetou () {
+  return axios.get('yetou')
+}

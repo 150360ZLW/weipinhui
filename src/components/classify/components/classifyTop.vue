@@ -34,6 +34,7 @@ export default {
     height: 50px;
     line-height: 50px;
     display: flex;
+    overflow: hidden;
     background: #fbfbfa;
     .wb-icon {
         width: 30px;

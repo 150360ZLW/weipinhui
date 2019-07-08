@@ -1,6 +1,6 @@
 <template>
   <div class="box">
-    <img v-for="(list,index) in List" :key="index" v-lazy="list">
+    <img v-for="(list,index) in List" :key="index" :src="list">
   </div>
 </template>
 <script>

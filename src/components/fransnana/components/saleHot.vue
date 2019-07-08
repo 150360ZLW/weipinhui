@@ -2,11 +2,11 @@
     <div>
         <div v-for="(item, index) in saleHotList" :key="index">
             <div class="title">
-                <img :src="item.title" alt="">
+                <img v-lazy="item.title" alt="">
             </div>
             <ul class="sh-content">
                 <li v-for="(imgurl,ind) in item.imgUrl" :key="ind">
-                    <img :src="imgurl" alt="">
+                    <img v-lazy="imgurl" alt="">
                 </li>
             </ul>
         </div>

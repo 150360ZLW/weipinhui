@@ -3,7 +3,7 @@
         <ul class="wb-c-content">
             <li v-for="item in wbClassifyList" :key="item.id" class="c-main">
                 <div class="c-main-img">
-                    <img :src="item.imgUrl" alt="">
+                    <img v-lazy="item.imgUrl" alt="">
                 </div>
 
                 <span v-text="item.title"></span>

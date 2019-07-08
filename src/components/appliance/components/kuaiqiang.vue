@@ -1,17 +1,16 @@
 <template>
   <div class="box">
     <ul class="myul">
-      <li v-for="(lite,intex) in kuailite"
-          :key="intex">
+      <li v-for="(lite,intex) in kuailite" :key="intex">
         <div class="box1">
-          <img :src="lite.img">
-          <img :src="lite.imgurl">
+          <img v-lazy="lite.img">
+          <img v-lazy="lite.imgurl">
           <p><span>{{lite.text}}</span><span>{{lite.money}}</span></p>
         </div>
       </li>
     </ul>
     <div class="box2">
-      <img src="http://127.0.0.1:3000/images/appliance/jiadian/1.gif">
+      <img src="http://127.0.0.1:3000/images/appliance/jiadian/1.gif"/>
     </div>
   </div>
 </template>

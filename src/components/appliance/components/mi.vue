@@ -1,12 +1,8 @@
 <template>
   <div class="box1">
-    <img v-for="(listi,intes) in boxlist"
-         :key="intes"
-         :src="listi">
+    <img v-for="(listi,intes) in boxlist" :key="intes" v-lazy="listi">
     <div class="box2">
-      <img v-for="(list,intex) in imglist "
-           :key=intex
-           :src="list">
+      <img v-for="(list,intex) in imglist " :key=intex v-lazy="list">
     </div>
     <img src="http://127.0.0.1:3000/images/appliance/qijian/7.jpg">
   </div>

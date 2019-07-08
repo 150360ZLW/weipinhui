@@ -12,8 +12,8 @@
   </div>
 </template>
 <script>
-import { getTmi1 } from '@/api'
-import { getTmi2 } from '@/api'
+import { getTmi1, getTmi2 } from '@/api'
+
 export default {
   data () {
     return {
@@ -22,7 +22,7 @@ export default {
     }
   },
   async created () {
-    this.boxlist = await getTmi1();
+    this.boxlist = await getTmi1()
     this.imglist = await getTmi2()
   }
 }

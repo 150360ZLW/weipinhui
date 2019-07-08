@@ -12,22 +12,22 @@ axios.interceptors.response.use(function (response) {
 })
 
 // 今日推荐分类接口
-export function getClassify() {
+export function getClassify () {
   return axios.get('classify')
 }
 
 // 品牌特卖接口
-export function getSaleHot() {
+export function getSaleHot () {
   return axios.get('saleHot')
 }
 
 // 唯品快抢接口
-export function getSaleFast() {
+export function getSaleFast () {
   return axios.get('saleFast')
 }
 
 // 首页今日特卖接口
-export function getTodaySale() {
+export function getTodaySale () {
   return axios.get('todaySale')
 }
 
@@ -35,61 +35,60 @@ export function getTodaySale() {
 
 // 母婴页面接口开始
 // 母婴页面轮播图
-export function getFransnanaBanner() {
+export function getFransnanaBanner () {
   return axios.get('slider')
 }
 
 // 母婴页面分类
-export function getWbClassify() {
+export function getWbClassify () {
   return axios.get('wbClassify')
 }
 
 // 母婴页面今日特卖
-export function getWbSaleHot() {
+export function getWbSaleHot () {
   return axios.get('wbSaleHot')
 }
 
 // 母婴页面唯品快抢版块
-export function getWbSaleFast() {
+export function getWbSaleFast () {
   return axios.get('wbSaleFast')
 }
 
 // 获取主分类页面的左边分类栏
-export function getWbLeftNav() {
+export function getWbLeftNav () {
   return axios.get('wbClassifyLeft')
 }
 
 // 分类推荐
-export function getWbRecommend() {
+export function getWbRecommend () {
   return axios.get('recommend')
 }
 
-
 // 田定茂
 // 轮播接口
-export function getCarousel() {
+export function getCarousel () {
   return axios.get('tcarousel')
 }
-//手机接口
-export function getCallphone() {
-  return axios.get("tcellphone")
+// 手机接口
+export function getCallphone () {
+  return axios.get('tcellphone')
 }
 // 广告
-export function getFenlei() {
-  return axios.get("tfenlei")
+export function getFenlei () {
+  return axios.get('tfenlei')
 }
 // 快抢
-export function getTkuai() {
-  return axios.get("tkuai")
+export function getTkuai () {
+  return axios.get('tkuai')
 }
 // 小米
-export function getTmi1() {
-  return axios.get("tmi1")
+export function getTmi1 () {
+  return axios.get('tmi1')
 }
-export function getTmi2() {
+export function getTmi2 () {
   return axios.get('tmi2')
 }
 // 展示
-export function getShow() {
+export function getShow () {
   return axios.get('show')
 }

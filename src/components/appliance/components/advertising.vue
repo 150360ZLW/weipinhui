@@ -27,4 +27,3 @@ export default {
   width: calc(100% / 3);
 }
 </style>
-

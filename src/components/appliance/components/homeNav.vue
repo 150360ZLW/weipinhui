@@ -23,19 +23,17 @@ export default {
         autoplay: {
           delay: 1000,
           stopOnLastSlide: false,
-          disableOnInteraction: true,
+          disableOnInteraction: true
         }
       },
-      swiperSlides: [],
+      swiperSlides: []
     }
   },
   async created () {
     this.swiperSlides = await getCarousel()
-
   }
 }
 </script>
 
 <style scoped>
 </style>
-

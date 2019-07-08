@@ -3,11 +3,11 @@ import Router from 'vue-router'
 import Home from '@/components/home/home'
 import Fransnana from '@/components/fransnana/fransnana'
 import Classify from '@/components/classify/classify'
+import Appliance from "@/components/appliance/appliance"
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
+  routes: [{
       path: '/home',
       name: 'home',
       component: Home
@@ -25,6 +25,11 @@ export default new Router({
       path: '/classify',
       name: 'classify',
       component: Classify
+    },
+    {
+      path: "/appliance",
+      name: "appliance",
+      component: Appliance
     }
   ]
 })

@@ -1,8 +1,8 @@
 <template>
     <div class="search">
-        <div class="yonghu">
+        <router-link tag="div" to="/register" class="yonghu">
             <i class="iconfont icon-yonghu"></i>
-        </div>
+        </router-link>
         <div class="s-content">
             <i class="iconfont icon-iconfontfangdajing"></i>
             <input type="text" placeholder="大家正在搜索:连衣裙">
@@ -10,7 +10,6 @@
         <div class="fenlei">
             <router-link tag="i" to="classify" class="iconfont icon-leimupinleifenleileibie"></router-link>
         </div>
-
     </div>
 </template>
 <script>

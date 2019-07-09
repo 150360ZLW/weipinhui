@@ -58,7 +58,6 @@
         height: 76px;
         line-height: 76px
     }
-
     .router-link-active {
         color: #D75FB1;
         border-bottom: 6px solid #D75FB1

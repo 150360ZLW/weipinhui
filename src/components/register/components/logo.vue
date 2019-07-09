@@ -1,17 +1,24 @@
 <template>
     <div>
-        <Logo></Logo>
-        <DengLuA></DengLuA>
+        <div class="logo-wrapper">
+            <img src="https://mlogin.vip.com/asserts/img/logo.ac5608f4.png" alt=""/>
+            <router-link tag="span" to="/home" class="iconfont icon-cha"></router-link>
+        </div>
+        <div class="login">
+            <div class="user">
+                <label class="label" for="username">手机号</label>
+                <input class="inp-style" style="height:51px;" id="username" type="text" placeholder="请输入手机号">
+            </div>
+            <div class="pwd">
+                <label class="label" for="password">验证码</label>
+                <input class="inp-style" style="border-right: 1px solid #ccc;" id="password" type="text" placeholder="请输入验证码">
+                <span>获取验证码</span>
+            </div>
+        </div>
     </div>
 </template>
 <script>
-import DengLuA from './components/denglua.vue'
-import Logo from './components/logo'
 export default {
-  components: {
-    DengLuA,
-    Logo
-  }
 }
 </script>
 <style lang="less" scoped>
@@ -27,6 +34,7 @@ export default {
         width: 250px;
     }
     >span {
+        // align-self: flex-start;
         position: absolute;
         right: 20px;
         top: 20px;
@@ -47,6 +55,7 @@ export default {
     }
     .inp-style {
         border: none;
+        // background: #fff;
         font-size: 32px;
     }
     .user {

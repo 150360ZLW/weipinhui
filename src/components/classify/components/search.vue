@@ -21,10 +21,10 @@ export default {
     button{
         display: block;
         width: 100%;
-        height: 40px;
+        height: 80px;
         background: #fff !important;
         color: #98989f;
-        font-size: 16px;
+        font-size: 32px;
         background: none;
         border: 1px solid #c3c3c3;
     }

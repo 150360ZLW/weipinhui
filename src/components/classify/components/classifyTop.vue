@@ -31,36 +31,36 @@ export default {
 <style lang="less" scoped>
 .wb-classify {
     width: 100%;
-    height: 50px;
-    line-height: 50px;
+    height: 100px;
+    line-height: 100px;
     display: flex;
     overflow: hidden;
     background: #fbfbfa;
     .wb-icon {
-        width: 30px;
-        height: 30px;
-        font-size: 30px;
-        padding: 5px 10px;
+        width: 60px;
+        height: 60px;
+        font-size: 60px;
+        padding: 10px 20px;
     }
     .wb-content {
         flex: 1;
         display: flex;
         justify-content: center;
         >span {
-            width: 100px;
-            height: 30px;
-            line-height: 30px;
+            width: 200px;
+            height: 60px;
+            line-height: 60px;
             text-align: center;
-            margin:  9px 0;
+            margin:  20px 0;
             border: 1px solid #929292;
             border-radius: 1px solid #ccc;
         }
         .content-l {
-            border-radius: 5px 0 0 5px;
+            border-radius: 10px 0 0 10px;
             background: #ccc;
         }
         .content-r{
-            border-radius: 0 5px 5px 0;
+            border-radius: 0 10px 10px 0;
         }
     }
 }

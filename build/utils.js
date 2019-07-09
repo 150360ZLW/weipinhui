@@ -29,12 +29,6 @@ exports.cssLoaders = function (options) {
       remUnit:75
     }
   }
-  var px2remLoader = {
-    loader: 'px2rem-loader',
-    options: {
-     remUnit: 75
-    }
-   }
 
   const postcssLoader = {
     loader: 'postcss-loader',
@@ -45,14 +39,11 @@ exports.cssLoaders = function (options) {
 
   // generate loader string to be used with extract text plugin
   function generateLoaders (loader, loaderOptions) {
-<<<<<<< HEAD
-    const loaders = options.usePostCSS ? [cssLoader, postcssLoader,px2remLoader] : [cssLoader,px2remLoader]
+    // const loaders = options.usePostCSS ? [cssLoader, postcssLoader,px2remLoader] : [cssLoader,px2remLoader]
 
-=======
     // const loaders = options.usePostCSS ? [cssLoader, postcssLoader] : [cssLoader]
-    var loaders = [cssLoader, px2remLoader]
+    const loaders = [cssLoader, px2remLoader]
     
->>>>>>> 6676371042ce82aa75b5ef0894996b030d15f62b
     if (loader) {
       loaders.push({
         loader: loader + '-loader',

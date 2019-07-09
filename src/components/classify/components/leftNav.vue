@@ -33,24 +33,25 @@ export default {
     &::-webkit-scrollbar{
         display: none;
     }
-    width: 100px;
-    height: calc(100% - 120px);
+    width: 200px;
+    height: calc(100% - 210px);
     overflow-y: auto;
     .left-nav{
-        width: 100px;
+        width: 200px;
         background: #f3f4f5;
         box-sizing: border-box;
         overflow: hidden;
         >li {
             width: 100%;
-            height: 40px;
-            line-height: 40px;
+            height: 80px;
+            line-height: 80px;
             text-align: center;
             box-sizing: border-box;
             >span {
                 display: inline-block;
                 height: 100%;
-                border-bottom: 1px solid rgb(228, 221, 221);
+                font-size: 24px;
+                border-bottom: 2px solid rgb(228, 221, 221);
             }
         }
 }

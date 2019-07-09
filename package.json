@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "axios": "^0.19.0",
+    "lazy-load": "0.0.2",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
     "lib-flexible": "^0.3.2",

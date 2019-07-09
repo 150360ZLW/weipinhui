@@ -1,4 +1,18 @@
 <template>
+<<<<<<< HEAD
+<div>
+   <div class="zzNav">
+        <ul>
+            <router-link tag="li" to="/zuihoufengqiang">
+                <span>最后疯抢</span>
+            </router-link>
+            <router-link tag="li" to="/meizhuang1">
+                <span>美妆</span>
+            </router-link>
+        </ul>
+   </div>
+
+=======
     <div class="topNav">
         <div class="zzNav">
             <ul>
@@ -17,6 +31,7 @@
             </ul>
         </div>
         <i class="iconfont icon-arrow-bottom zzNav-dw"></i>
+>>>>>>> 6676371042ce82aa75b5ef0894996b030d15f62b
      </div>
 </template>
 
@@ -37,7 +52,15 @@
    .zzNav-dw{
     font-size: 50px;
     background: white;
+<<<<<<< HEAD
+    padding: 0 24px;
+    position: absolute;
+    right: 0;
+    top: 6px;
+    margin-top: 82px
+=======
     padding: 0 10px;
+>>>>>>> 6676371042ce82aa75b5ef0894996b030d15f62b
    }
   .zzNav {
         background: white;
@@ -51,7 +74,10 @@
     .zzNav ul li{
         margin: 0 20px;
         white-space: nowrap;
+<<<<<<< HEAD
+=======
         height: 80px
+>>>>>>> 6676371042ce82aa75b5ef0894996b030d15f62b
     }
     .zzNav ul li span {
         font-size: 30px;

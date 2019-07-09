@@ -5,7 +5,7 @@
     <div class="mspro">
       <ul class="product">
           <li v-for="(product,index) in productList" :key="index">
-              <img :src="product"/>
+              <img v-lazy="product"/>
           </li>
       </ul>
     </div>
@@ -31,7 +31,6 @@ export default {
 
 <style scoped lang="less">
     .ms {
-
         .mspro {
           width: 100%;
         }
@@ -40,7 +39,7 @@ export default {
             display: block;
         }
         .product {
-          height: 143.5px;
+            font-size: 0;
             li{
                 width: calc(100%/3);
                 display: inline-block;

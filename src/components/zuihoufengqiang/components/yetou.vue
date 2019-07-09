@@ -4,8 +4,8 @@
                 <router-link tag="i" to="home" class="iconfont icon-mjiantou-copy"></router-link>
                 <span class="fengqiang">最后疯抢</span>
             </div>
-            <img :src="yetou[0]" alt="">
-            <img :src="yetou[1]" alt="">
+            <img v-lazy="yetou[0]" alt="">
+            <img v-lazy="yetou[1]" alt="">
         </div>
 </template>
 <script>

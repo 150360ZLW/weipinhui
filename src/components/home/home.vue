@@ -2,6 +2,8 @@
     <div class="home">
         <!-- 搜索栏 -->
         <Search></Search>
+        <!-- 路由组件 -->
+        <topNav></topNav>
         <!-- 分类组件 -->
         <Classify></Classify>
         <!-- 品牌特卖 -->
@@ -19,6 +21,7 @@ import BrandSale from './components/brandSale'
 import SaleFast from './components/saleFast'
 import Promotion from './components/promotion'
 import Search from '@/common/search'
+import TopNav from '@/common/topNav'
 export default {
   data () {
     return {
@@ -30,7 +33,8 @@ export default {
     BrandSale,
     SaleFast,
     Promotion,
-    Search
+    Search,
+    TopNav
   }
 }
 </script>

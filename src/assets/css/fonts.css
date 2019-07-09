@@ -41,3 +41,12 @@
 .icon-home::after {
     content: "\e65b"
 }
+.icon-cha::after {
+    content: "\e605"
+}
+.icon-xuanzhongkuang::after {
+    content: "\e606"
+}
+.icon-weixuanzhongkuang::after {
+    content: "\e660"
+}

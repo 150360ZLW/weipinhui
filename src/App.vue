@@ -1,18 +1,15 @@
 <template>
   <div id="app">
-    <topNav></topNav>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
 import Home from '@/components/home/home.vue'
-import topNav from '@/common/topNav.vue'
 export default {
   name: 'App',
   components: {
-    Home,
-    topNav
+    Home
   }
 
 }

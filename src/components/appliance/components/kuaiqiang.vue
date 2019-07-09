@@ -31,25 +31,23 @@ export default {
 <style scoped>
 .box {
   width: 100%;
-  height: 225px;
+  height: 260px;
   background: url("http://127.0.0.1:3000/images/appliance/jiadian/6.jpg");
-  background-size: 100% 225px;
+  background-size: 100% 260px;
 }
 .myul {
   padding-top: 80px;
 }
 .box1 {
   width: 25%;
-  height: 160px;
 }
 .box1 img:nth-child(1) {
   width: 100%;
-  height: 93px;
   margin-left: 10px;
 }
 .box1 img:nth-child(2) {
-  width: 40px;
-  height: 20px;
+  width: 80px;
+  height: 40px;
   margin-left: 30px;
 }
 .myul li {

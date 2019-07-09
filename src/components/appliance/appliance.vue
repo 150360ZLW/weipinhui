@@ -1,6 +1,7 @@
 <template>
   <div class="appliance">
     <Search></Search>
+    <TopNav></TopNav>
     <HomeNav class="slider"></HomeNav>
     <Advertising></Advertising>
     <Fenlei></Fenlei>
@@ -17,6 +18,7 @@ import Kuaiqiang from './components/kuaiqiang.vue'
 import Mi from './components/mi.vue'
 import Zuihuo from './components/promotion.vue'
 import Search from '@/common/Search'
+import TopNav from '@/common/topNav'
 export default {
   data () {
     return {
@@ -30,7 +32,8 @@ export default {
     Kuaiqiang,
     Mi,
     Zuihuo,
-    Search
+    Search,
+    TopNav
   }
 }
 </script>

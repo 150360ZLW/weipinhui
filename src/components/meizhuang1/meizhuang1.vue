@@ -1,6 +1,7 @@
 <template>
     <div class="meizhuang1">
       <Search class="search"></Search>
+      <TopNav></TopNav>
       <!-- 轮播 -->
       <Lunbo></Lunbo>
       <!-- 分类导航 -->
@@ -23,6 +24,7 @@ import Weipinkuaiqiang from './components/weipinkuaiqiang.vue'
 import Cainixihuan from './components/cainixihuan.vue'
 import Gengduotuijian from './components/gengduotuijian.vue'
 import Search from '@/common/search'
+import TopNav from '@/common/topNav'
 export default {
   data () {
     return {
@@ -36,7 +38,8 @@ export default {
     Weipinkuaiqiang,
     Cainixihuan,
     Gengduotuijian,
-    Search
+    Search,
+    TopNav
   },
   created () {
 

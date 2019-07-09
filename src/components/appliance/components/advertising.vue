@@ -19,7 +19,7 @@ export default {
 </script>
 <style scoped>
 .box {
-  margin-top: -4px;
+  margin-top: -8px;
 }
 .box img {
   width: calc(100% / 3);

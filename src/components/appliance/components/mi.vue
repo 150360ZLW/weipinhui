@@ -25,7 +25,7 @@ export default {
 </script>
 <style scoped>
 .box1 {
-  margin-top: 180px;
+  margin-top: 4.4rem
 }
 .box1 > img {
   width: 100%;

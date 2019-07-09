@@ -6,6 +6,7 @@ import Classify from '@/components/classify/classify'
 import Appliance from '@/components/appliance/appliance'
 import Zuihoufengqiang from '@/components/zuihoufengqiang/zuihoufengqiang'
 import Meizhuang1 from '@/components/meizhuang1/meizhuang1'
+import Register from '@/components/register/register'
 Vue.use(Router)
 
 export default new Router({
@@ -28,6 +29,11 @@ export default new Router({
       path: '/classify',
       name: 'classify',
       component: Classify
+    },
+    {
+      path: '/register',
+      name: 'register',
+      component: Register
     },
     // 田定茂
     {

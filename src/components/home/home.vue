@@ -37,6 +37,6 @@ export default {
 
 <style scoped>
 .home{
-  margin-top: 80px;
+  margin-top: 160px;
 }
 </style>

@@ -23,7 +23,7 @@
 <style scoped lang='less'>
     .topNav {
         position: fixed;
-        top: 40px;
+        top: 80px;
         left: 0;
         width: 100%;
         background: #fff;
@@ -35,7 +35,7 @@
        height: 0;
    }
    .zzNav-dw{
-    font-size: 25px;
+    font-size: 50px;
     background: white;
     padding: 0 10px;
    }
@@ -49,18 +49,18 @@
         display: flex
     }
     .zzNav ul li{
-        margin: 0 10px;
+        margin: 0 20px;
         white-space: nowrap;
-        height: 40px
+        height: 80px
     }
     .zzNav ul li span {
-        font-size: 15px;
-        height: 38px;
-        line-height: 38px
+        font-size: 30px;
+        height: 76px;
+        line-height: 76px
     }
 
     .router-link-active {
         color: #D75FB1;
-        border-bottom: 3px solid #D75FB1
+        border-bottom: 6px solid #D75FB1
     }
 </style>

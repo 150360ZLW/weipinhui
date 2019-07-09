@@ -6,8 +6,8 @@
         </div>
         <ul class="sf-content">
             <li v-for="(imgurl,ind) in sflist.imgsUrl" :key="ind">
-                <img v-lazy="imgurl.imgurl" alt="">
-                <img v-lazy="imgurl.imgtitle" class="imgtitle" alt="" v-if="imgurl.imgtitle">
+                <img :src="imgurl.imgurl" alt="">
+                <img :src="imgurl.imgtitle" class="imgtitle" alt="" v-if="imgurl.imgtitle">
                 <div>
                   <span v-text="imgurl.yh" class="yh"></span>
                   <span v-text="imgurl.price" :style="{color:sflist.priceColor}"></span>

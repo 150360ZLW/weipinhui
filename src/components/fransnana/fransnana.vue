@@ -34,6 +34,6 @@ export default {
 
 <style lang="less" scoped>
 .fransnana{
-  margin-top: 40px;
+  margin-top: 80px;
 }
 </style>

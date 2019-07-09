@@ -29,30 +29,6 @@ export default new Router({
       name: 'classify',
       component: Classify
     },
-    {
-      path: '/appliance',
-      name: 'appliance',
-      component: Appliance
-    },
-    {
-      path: '/home',
-      name: 'home',
-      component: Home
-    },
-    {
-      path: '*',
-      redirect: '/home'
-    },
-    {
-      path: '/fransnana',
-      name: 'fransnana',
-      component: Fransnana
-    },
-    {
-      path: '/classify',
-      name: 'classify',
-      component: Classify
-    },
     // 田定茂
     {
       path: '/appliance',

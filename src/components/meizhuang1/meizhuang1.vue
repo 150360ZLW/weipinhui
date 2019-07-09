@@ -48,7 +48,7 @@ export default {
   background: black;
 }
 .meizhuang1{
-  margin-top: 80px;
+  margin-top: 160px;
 }
 
 </style>

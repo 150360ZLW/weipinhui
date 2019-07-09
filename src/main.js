@@ -9,6 +9,7 @@ import 'swiper/dist/css/swiper.css'
 import VueLazyload from 'vue-lazyload'
 import '@/assets/reset.css'
 import '@/assets/common.css'
+import 'lib-flexible'
 
 Vue.config.productionTip = false
 

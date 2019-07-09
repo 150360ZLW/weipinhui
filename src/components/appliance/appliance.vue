@@ -36,6 +36,6 @@ export default {
 </script>
 <style lang="less" scoped>
 .appliance {
-  margin-top: 80px;
+  margin-top: 160px;
 }
 </style>

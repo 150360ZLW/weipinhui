@@ -1,8 +1,6 @@
 <template>
   <div class="box">
-    <img v-for="(list,index) in List"
-         :key="index"
-         :src="list">
+    <img v-for="(list,index) in List" :key="index" :src="list">
   </div>
 </template>
 <script>
@@ -21,10 +19,9 @@ export default {
 </script>
 <style scoped>
 .box {
-  margin-top: -4px;
+  margin-top: -8px;
 }
 .box img {
   width: calc(100% / 3);
 }
 </style>
-

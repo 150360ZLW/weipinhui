@@ -1,7 +1,7 @@
 <template>
         <div class="zuihoufengqiang1">
             <div class="zuihoufengqiang">
-                <i class="iconfont icon-mjiantou-copy"></i>
+                <router-link tag="i" to="home" class="iconfont icon-mjiantou-copy"></router-link>
                 <span class="fengqiang">最后疯抢</span>
             </div>
             <img v-lazy="yetou[0]" alt="">
@@ -39,7 +39,7 @@ export default {
         font-size: 40px;
         flex: 1;
         text-align: center;
-        transform: translateX(-20px)
+        transform: translateX(-40px)
     }
     .zuihoufengqiang1 img{
         width: 100%;

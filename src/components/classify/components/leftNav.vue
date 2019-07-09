@@ -34,11 +34,13 @@ export default {
         display: none;
     }
     width: 100px;
-    height: calc(100% - 100px);
+    height: calc(100% - 120px);
     overflow-y: auto;
     .left-nav{
         width: 100px;
         background: #f3f4f5;
+        box-sizing: border-box;
+        overflow: hidden;
         >li {
             width: 100%;
             height: 40px;

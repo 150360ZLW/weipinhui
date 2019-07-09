@@ -1,9 +1,8 @@
 <template>
   <div class="cate">
     <ul>
-      <li v-for="(cate,index) in cateList"
-          :key="index">
-        <img :src="cate">
+      <li v-for="(cate,index) in cateList" :key="index">
+        <img v-lazy="cate">
       </li>
     </ul>
   </div>

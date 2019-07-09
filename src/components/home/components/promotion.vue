@@ -4,7 +4,7 @@
             <p>今日特卖·10点上新</p>
         </div>
         <div v-for="(item,index) in todayList" :key="index" class="pmt-content">
-            <img :src="item.imgUrl" alt="">
+            <img v-lazy="item.imgUrl" alt="">
             <div class="pmt-c-title">
                 <p v-text="item.title"></p>
                 <div class="zhekou">

@@ -2,12 +2,12 @@
     <div>
         <div class="sale-fast" v-for="(item) in saleFastList" :key="item.id">
             <div class="sf-bg">
-                <img :src="item.titleImg" alt="">
+                <img v-lazy="item.titleImg" alt="">
             </div>
             <ul class="sf-content">
                 <li v-for="imgs in item.imgsurl" :key="imgs.id">
-                    <img :src="imgs.mainImg" alt="">
-                    <img :src="imgs.smallImg" class="wb-small-img" alt="" v-if="imgs.smallImg">
+                    <img v-lazy="imgs.mainImg" alt="">
+                    <img v-lazy="imgs.smallImg" class="wb-small-img" alt="" v-if="imgs.smallImg">
                     <div class="sf-title">
                         <span v-text="item.text" class="sf-sp1"></span>
                         <span v-text="imgs.price" :style="item.priceColor" class="sf-sp2"></span>

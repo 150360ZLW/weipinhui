@@ -1,13 +1,9 @@
 <template>
-  <swiper :options="swiperOption"
-          class="box">
-    <swiper-slide v-for="(slide, index) in swiperSlides"
-                  :key="index">
-      <img style="width:100%"
-           :src="slide.imgurl">
+  <swiper :options="swiperOption" class="box">
+    <swiper-slide v-for="(slide, index) in swiperSlides" :key="index">
+      <img style="width:100%" v-lazy="slide.imgurl">
     </swiper-slide>
-    <div class="swiper-pagination"
-         slot="pagination"></div>
+    <div class="swiper-pagination" slot="pagination"></div>
   </swiper>
 </template>
 
@@ -23,19 +19,17 @@ export default {
         autoplay: {
           delay: 1000,
           stopOnLastSlide: false,
-          disableOnInteraction: true,
+          disableOnInteraction: true
         }
       },
-      swiperSlides: [],
+      swiperSlides: []
     }
   },
   async created () {
     this.swiperSlides = await getCarousel()
-
   }
 }
 </script>
 
 <style scoped>
 </style>
-

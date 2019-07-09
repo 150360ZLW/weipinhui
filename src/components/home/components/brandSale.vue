@@ -1,11 +1,11 @@
 <template>
     <div class="brandSale">
         <div class="bs-title">
-            <img :src="item.titleUrl" alt="" v-for="(item,index) in hotSaleList" :key="index">
+            <img v-lazy="item.titleUrl" alt="" v-for="(item,index) in hotSaleList" :key="index">
         </div>
         <ul v-for="(item,index) in hotSaleList" :key="index" class="brand-content">
             <li v-for="(imgurl,index) in item.imgUrl" :key="index">
-                <img :src="imgurl" alt="">
+                <img v-lazy="imgurl" alt="">
             </li>
         </ul>
     </div>

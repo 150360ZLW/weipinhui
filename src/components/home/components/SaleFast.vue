@@ -2,7 +2,7 @@
     <div class="sale-fast" >
       <div v-for="sflist in sfList" :key="sflist.id">
         <div class="sf-title">
-            <img :src="sflist.titleUrl" alt="">
+            <img v-lazy="sflist.titleUrl" alt="">
         </div>
         <ul class="sf-content">
             <li v-for="(imgurl,ind) in sflist.imgsUrl" :key="ind">

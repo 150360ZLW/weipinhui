@@ -24,38 +24,39 @@ export default {
     top: 0;
     left: 0;
     background: #fff;
-    padding: 5px 0;
+    padding: 10px 0;
     width: 100%;
-    height: 30px;
+    height: 60px;
     display: flex;
+    z-index: 9999;
     .yonghu {
-        width: 30px;
-        height: 30px;
+        width: 60px;
+        height: 60px;
         text-align: center;
-        line-height: 30px;
+        line-height: 60px;
         >i {
-            font-size: 26px;
+            font-size: 52px;
         }
     }
     .fenlei {
-        width: 30px;
-        height: 30px;
+        width: 60px;
+        height: 60px;
         text-align: center;
-        line-height: 30px;
+        line-height: 60px;
         >i {
-            font-size: 26px;
+            font-size: 50px;
         }
     }
     .s-content {
-        border-radius: 50px;
+        border-radius: 100px;
         flex:1;
         background: #e9e7e7;
         >i {
-            font-size: 24px;
-            margin: 0 5px;
+            font-size: 48px;
+            margin: 0 10px;
         }
         >input {
-            height: 24px;
+            height: 48px;
             width: 80%;
             border: none;
             background: none;

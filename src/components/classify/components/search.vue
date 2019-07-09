@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="search">
         <div class="wb-content">
             <button>
                 <i class="iconfont icon-iconfontfangdajing"></i>

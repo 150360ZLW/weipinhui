@@ -1,6 +1,7 @@
 <template>
     <div class="fransnana">
         <Search></Search>
+        <TopNav></TopNav>
         <Banner></Banner>
         <Classify></Classify>
         <SaleHot></SaleHot>
@@ -15,6 +16,7 @@ import SaleHot from './components/saleHot'
 import SaleFast from './components/saleFast'
 import Promotion from '@/components/home/components/promotion'
 import Search from '@/common/search'
+import TopNav from '@/common/topNav'
 export default {
   data () {
     return {
@@ -27,13 +29,14 @@ export default {
     SaleHot,
     SaleFast,
     Promotion,
-    Search
+    Search,
+    TopNav
   }
 }
 </script>
 
 <style lang="less" scoped>
 .fransnana{
-  margin-top: 40px;
+  margin-top: 80px;
 }
 </style>

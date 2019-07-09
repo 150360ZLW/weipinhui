@@ -2,7 +2,7 @@
     <div>
         <ul class="classifyW">
             <li v-for="(classlist) in classList" :key="classlist.id">
-                <img :src="classlist.imgurl" alt="">
+                <img v-lazy="classlist.imgurl" alt="">
             </li>
         </ul>
     </div>

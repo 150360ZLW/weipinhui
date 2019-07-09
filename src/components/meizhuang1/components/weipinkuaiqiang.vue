@@ -3,8 +3,8 @@
         <img src="https://b.appsimg.com/upload/mst/2019/06/20/7/mst_a25b0366d1f15a41b94b457c6c0c1b71.jpg" alt="">
         <ul class="wpkq_wx">
             <li v-for="(item,index) in kuaiqiang" :key="index">
-                <img :src="item.img1" alt="">
-                <img :src="item.img2" alt="">
+                <img v-lazy="item.img1" alt="">
+                <img v-lazy="item.img2" alt="">
                 <span class="a1">快抢价</span>
                 <span class="a2">￥{{item.price}}</span>
             </li>
@@ -39,11 +39,11 @@ export default {
     .wpkq_wx{
         display: flex;
         position: absolute;
-        bottom: 15px;
+        bottom: 24px;
         left: 0;
     }
     .wpkq_wx li{
-        font-size: 10px;
+        font-size: 0px;
         text-align: center;
     }
     .wpkq_wx li img{
@@ -51,17 +51,19 @@ export default {
     }
     .wpkq_wx .a1{
         background: #DE3D96;
-        width: 27px;
-        height: 12px;
+        width: 54px;
+        height: 24px;
         color: white;
+        font-size: 20px
     }
     .wpkq_wx .a2{
         color: #DE3D96;
+        font-size: 20px
     }
     .wpkq_wx li img:nth-child(2){
         width: 50%;
         display: block;
         margin: auto;
-        padding: 3px 0;
+        padding: 6px 0;
     }
 </style>

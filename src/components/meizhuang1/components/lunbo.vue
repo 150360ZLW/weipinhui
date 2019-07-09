@@ -41,14 +41,12 @@ export default {
 }
 </script>
 <style>
-  .swiper-container-horizontal > .swiper-pagination-bullets{
-     width: 30%;
-    transform: translateX(330px);
-  }
   .swiper-pagination-bullet-active {
     background: #000;
   }
   .swiper-pagination-bullet{
-    border: 1px solid #fff
+    border: 2px solid #fff;
+    width:12px;
+    height: 12px;
   }
 </style>

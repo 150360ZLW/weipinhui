@@ -38,26 +38,26 @@ export default {
         width: 85%;
         position: absolute;
         left: 7.5%;
-        bottom: 15px;
+        bottom: 30px;
     }
     .cainixihuan_content li{
         width: calc(100% / 3);
         position: relative;
-        margin: 5px 0;
+        margin: 10px 0;
     }
     .cainixihuan_content{
         display: flex;
         flex-wrap:wrap;
     }
     .cainixihuan_content .b1{
-        font-size: 12px;
+        font-size: 24px;
         position: absolute;
         left: 0;
         bottom: 0;
         width: 100%;
         text-align: center;
-        height: 23px;
+        height: 46px;
         background: rgba(255, 255, 255, 0.7);
-        line-height: 23px;
+        line-height: 46px;
     }
 </style>

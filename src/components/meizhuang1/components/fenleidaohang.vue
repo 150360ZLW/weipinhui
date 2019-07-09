@@ -2,7 +2,7 @@
     <div class="cate">
         <ul>
             <router-link tag="li" :to="{path: cate.href}" v-for="(cate,index) in cateList" :key="index">
-                <img :src="cate.imgurl" alt="">
+                <img v-lazy="cate.imgurl" alt="">
             </router-link>
         </ul>
     </div>

@@ -64,6 +64,10 @@ export function getWbRecommend () {
   return axios.get('recommend')
 }
 
+export function getRegister () {
+  return axios.get('register')
+}
+
 // 田定茂
 // 轮播接口
 export function getCarousel () {

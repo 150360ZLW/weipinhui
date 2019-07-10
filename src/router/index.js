@@ -7,6 +7,7 @@ import Appliance from '@/components/appliance/appliance'
 import Zuihoufengqiang from '@/components/zuihoufengqiang/zuihoufengqiang'
 import Meizhuang1 from '@/components/meizhuang1/meizhuang1'
 import Register from '@/components/register/register'
+import DengluB from '@/components/register/components/denglub'
 Vue.use(Router)
 
 export default new Router({
@@ -35,6 +36,11 @@ export default new Router({
       name: 'register',
       component: Register
     },
+    {
+      path: '/denglub',
+      name: 'denglub',
+      component: DengluB
+    },
     // 田定茂
     {
       path: '/appliance',
@@ -49,22 +55,7 @@ export default new Router({
         cache: false
       }
     },
-    // 田定茂
-    {
-      path: '/appliance',
-      name: 'appliance',
-      component: Appliance
-    },
     // lfz
-
-    {
-      path: '/meizhuang1',
-      name: 'Meizhuang1',
-      component: Meizhuang1,
-      mete: {
-        cache: false
-      }
-    },
     {
       path: '/meizhuang1',
       name: 'Meizhuang1',

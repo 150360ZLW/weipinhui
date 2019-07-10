@@ -1,12 +1,12 @@
 <template>
-        <div class="zuihoufengqiang1">
-            <div class="zuihoufengqiang">
-                <router-link tag="i" to="home" class="iconfont icon-mjiantou-copy"></router-link>
-                <span class="fengqiang">最后疯抢</span>
-            </div>
-            <img v-lazy="yetou[0]" alt="">
-            <img v-lazy="yetou[1]" alt="">
+    <div class="zuihoufengqiang1">
+        <div class="zuihoufengqiang">
+            <router-link tag="i" to="home" class="iconfont icon-mjiantou-copy"></router-link>
+            <span class="fengqiang">最后疯抢</span>
         </div>
+        <img v-lazy="yetou[0]" alt="">
+        <img v-lazy="yetou[1]" alt="">
+    </div>
 </template>
 <script>
 import {getYetou} from '@/api'
@@ -44,5 +44,8 @@ export default {
     .zuihoufengqiang1 img{
         width: 100%;
         display: block;
+        // position: absolute;
+        // left: 0;
+        // top: 0;
     }
 </style>

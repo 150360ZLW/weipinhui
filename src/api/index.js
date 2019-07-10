@@ -130,3 +130,28 @@ export function getgengduotuijian () {
 export function getYetou () {
   return axios.get('yetou')
 }
+// 聂苗苗 国际
+// 轮播图接口
+export function getBanner1 () {
+  return axios.get('banner1')
+}
+// 展示图接口
+export function getComptPlay () {
+  return axios.get('playList')
+}
+// 左滑动接口
+export function getLeftslide () {
+  return axios.get('leftslide')
+}
+// 快抢接口
+export function getGrabList () {
+  return axios.get('grabList')
+}
+// 猜你喜欢接口
+export function getGuessLike () {
+  return axios.get('guessLike')
+}
+// 唯品国际接口
+export function getOnlyproduct () {
+  return axios.get('onlyproduct')
+}

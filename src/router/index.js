@@ -63,6 +63,12 @@ export default new Router({
       mete: {
         cache: false
       }
+    },
+    // nmm
+    {
+      path: '/international',
+      name: 'International',
+      component: () => import('@/components/international/international')
     }
   ]
 })

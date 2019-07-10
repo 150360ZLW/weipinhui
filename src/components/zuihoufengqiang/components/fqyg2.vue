@@ -22,6 +22,10 @@ export default {
 }
 </script>
 <style scoped>
+.cate1{
+        position: relative;
+        z-index: 10000
+    }
 .cate1 ul {
     display: flex;
     flex-wrap: wrap;

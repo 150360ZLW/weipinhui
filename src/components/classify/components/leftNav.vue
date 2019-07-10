@@ -33,11 +33,12 @@ export default {
     &::-webkit-scrollbar{
         display: none;
     }
+    display: inline-block;
     width: 200px;
     height: calc(100% - 210px);
     overflow-y: auto;
     .left-nav{
-        width: 200px;
+        width: 100%;
         background: #f3f4f5;
         box-sizing: border-box;
         overflow: hidden;

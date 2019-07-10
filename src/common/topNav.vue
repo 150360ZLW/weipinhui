@@ -1,15 +1,5 @@
 <template>
     <div>
-        <div class="zzNav">
-            <ul>
-                <router-link tag="li" to="/zuihoufengqiang">
-                    <span>最后疯抢</span>
-                </router-link>
-                <router-link tag="li" to="/meizhuang1">
-                    <span>美妆</span>
-                </router-link>
-            </ul>
-        </div>
         <div class="topNav">
             <div class="zzNav">
                 <ul>

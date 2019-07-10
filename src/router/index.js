@@ -47,6 +47,7 @@ export default new Router({
       name: 'appliance',
       component: Appliance
     },
+    // lfz
     {
       path: '/zuihoufengqiang',
       name: 'Zuihoufengqiang',
@@ -55,7 +56,6 @@ export default new Router({
         cache: false
       }
     },
-    // lfz
     {
       path: '/meizhuang1',
       name: 'Meizhuang1',

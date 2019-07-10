@@ -27,6 +27,10 @@ export default {
 }
 </script>
 <style scoped>
+    .fqyg1_1{
+        position: relative;
+        z-index: 10000
+    }
     .fqyg1_1 .sp0{
         display: inline-block;
         width: 100%;

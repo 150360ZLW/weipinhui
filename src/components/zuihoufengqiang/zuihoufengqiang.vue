@@ -26,4 +26,7 @@ export default {
 }
 </script>
 <style scoped>
+  .topNav{
+    display: none
+  }
 </style>

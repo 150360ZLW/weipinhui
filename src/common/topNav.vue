@@ -15,6 +15,9 @@
                     <router-link tag="li" to="/appliance">
                         <span>家电</span>
                     </router-link>
+                    <router-link tag="li" to="/international">
+                        <span>国际</span>
+                    </router-link>
                 </ul>
             </div>
             <i class="iconfont icon-arrow-bottom zzNav-dw"></i>

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="fengqiangyugao1">
         <div class="fengqiangyugao">
             <p class="on" @click="toggle1">今日疯抢(11)</p>
 
@@ -52,9 +52,15 @@ export default {
         width: 100%;
         line-height: 100px;
         font-size: 32px;
+        position: absolute;
+        z-index: 10000;
     }
     .fengqiangyugao .on{
         color: #ED4396;
         border-bottom: 4px solid #ED4396
+    }
+    .fengqiangyugao1{
+        position: relative;
+        z-index: 10000;
     }
 </style>

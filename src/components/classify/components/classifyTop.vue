@@ -46,6 +46,7 @@ export default {
         flex: 1;
         display: flex;
         justify-content: center;
+        font-size: 24px;
         >span {
             width: 200px;
             height: 60px;

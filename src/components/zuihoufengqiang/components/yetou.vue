@@ -41,6 +41,10 @@ export default {
         text-align: center;
         transform: translateX(-40px)
     }
+    .zuihoufengqiang1{
+        position: relative;
+        z-index: 10000
+    }
     .zuihoufengqiang1 img{
         width: 100%;
         display: block;

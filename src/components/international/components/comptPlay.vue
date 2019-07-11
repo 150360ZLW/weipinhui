@@ -1,15 +1,16 @@
 <template>
-    <div class="cate1">
+    <div class="nplay">
         <ul>
             <router-link tag="li" :to="{path: cate.href}" v-for="(cate,index) in cateList" :key="index">
                 <img v-lazy="cate.imgurl" alt="">
             </router-link>
+
         </ul>
     </div>
 </template>
 
 <script>
-import {getHomeCate} from '@/api'
+import {getComptPlay} from '@/api'
 export default {
   data () {
     return {
@@ -17,24 +18,23 @@ export default {
     }
   },
   async created () {
-    this.cateList = await getHomeCate()
+    this.cateList = await getComptPlay()
   }
 }
 </script>
 <style scoped>
-.cate1{
-        position: relative;
-        z-index: 10000
-    }
-.cate1 ul {
-    display: flex;
-    flex-wrap: wrap;
-}
-.cate1 ul li {
-    width: 20%;
+.nplay{
+  overflow-x:auto;
 }
 
-.cate1 ul li img {
-    width: 100%;
+.nplay ul{
+  display: flex;
+  list-style: none;
+}
+.nplay ul li{
+    width: 20%;
+}
+.nplay ul li img{
+    width:100%;
 }
 </style>

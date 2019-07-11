@@ -65,6 +65,7 @@ export default new Router({
         title: '家电'
       }
     },
+    // lfz
     {
       path: '/zuihoufengqiang',
       name: 'Zuihoufengqiang',
@@ -74,7 +75,6 @@ export default new Router({
         title: '最后疯抢'
       }
     },
-    // lfz
     {
       path: '/meizhuang1',
       name: 'Meizhuang1',
@@ -83,6 +83,12 @@ export default new Router({
         cache: false,
         title: '美妆'
       }
+    },
+    // nmm
+    {
+      path: '/international',
+      name: 'International',
+      component: () => import('@/components/international/international')
     }
   ]
 })

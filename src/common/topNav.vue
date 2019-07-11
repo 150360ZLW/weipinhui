@@ -18,13 +18,11 @@
                     <router-link tag="li" to="/international">
                         <span>国际</span>
                     </router-link>
-<<<<<<< HEAD
                     <router-link tag="li" to="/jiajv">
                         <span>家居</span>
-=======
+                    </router-link>
                     <router-link tag="li" to="/live">
                         <span>生活</span>
->>>>>>> ae248473bde68498c5e6ffdbd02c4bd7e51b3035
                     </router-link>
                 </ul>
             </div>

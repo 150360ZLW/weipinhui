@@ -182,13 +182,12 @@ export function getJiaXunHuan () {
   return axios.get('jiaxunhuan')
 }
 
-
 // 豆欣欣 生活接口
 export function getBanner2 () {
   return axios.get('banner2')
 }
 
-//第二部分
+// 第二部分
 export function getLiveCate () {
   return axios.get('category2')
 }

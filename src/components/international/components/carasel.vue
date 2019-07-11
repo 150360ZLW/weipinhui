@@ -1,13 +1,9 @@
 <template>
-  <swiper :options="swiperOption"
-          class="nbox">
-    <swiper-carse v-for="(carse, index) in swipercarse"
-                  :key="index">
-      <img style="width:100%"
-           :src="carse">
-    </swiper-carse>
-    <!-- <div class="swiper-pagination"
-         slot="pagination"></div> 指示器圆点去掉-->
+  <swiper :options="swiperOption" class="nbox">
+    <swiper-slide v-for="(carse, index) in swipercarse" :key="index">
+      <img style="width:100%" :src="carse">
+    </swiper-slide>
+    <div class="swiper-pagination" slot="pagination"></div>
   </swiper>
 </template>
 
@@ -19,20 +15,17 @@ export default {
   },
   data () {
     return {
+      swipercarse: [],
       swiperOption: {
         pagination: {
           el: '.swiper-pagination'
         },
-        // loop: true,
         autoplay: {
           delay: 1000,
           stopOnLastSlide: false,
           disableOnInteraction: true
         }
-      },
-      swipercarse: [
-
-      ]
+      }
     }
   }
 }

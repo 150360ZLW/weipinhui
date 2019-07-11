@@ -30,7 +30,6 @@ Vue.use(VueLazyload, {
 })
 
 router.beforeEach((to, from, next) => {
-  console.log(to.meta.title)
   document.title = to.meta.title
   next()
 })

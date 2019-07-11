@@ -1,5 +1,5 @@
 <template>
-    <swiper :options="swiperOption">
+  <swiper :options="swiperOption">
     <swiper-slide v-for="(slide, index) in bannerList" :key="index">
         <img style="width:100%" :src="slide" alt="">
     </swiper-slide>

@@ -88,7 +88,10 @@ export default new Router({
     {
       path: '/international',
       name: 'International',
-      component: () => import('@/components/international/international')
+      component: () => import('@/components/international/international'),
+      meta: {
+        title: '国际'
+      }
     }
   ]
 })

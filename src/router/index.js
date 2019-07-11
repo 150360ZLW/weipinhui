@@ -9,6 +9,7 @@ import Meizhuang1 from '@/components/meizhuang1/meizhuang1'
 import Register from '@/components/register/register'
 import DengluB from '@/components/register/components/denglub'
 import Weipinshe from '@/components/weipinshe/weipinshe'
+import Live from '@/components/live/live'
 Vue.use(Router)
 
 export default new Router({
@@ -16,7 +17,10 @@ export default new Router({
     {
       path: '/home',
       name: 'home',
-      component: Home
+      component: Home,
+      meta: {
+        title: '首页-今日推荐'
+      }
     },
     {
       path: '*',
@@ -25,29 +29,45 @@ export default new Router({
     {
       path: '/fransnana',
       name: 'fransnana',
-      component: Fransnana
+      component: Fransnana,
+      meta: {
+        title: '母婴'
+      }
     },
     {
       path: '/classify',
       name: 'classify',
-      component: Classify
+      component: Classify,
+      meta: {
+        title: '唯品会VIP特卖会'
+      }
     },
     {
       path: '/register',
       name: 'register',
-      component: Register
+      component: Register,
+      meta: {
+        title: '登录页面'
+      }
     },
     {
       path: '/denglub',
       name: 'denglub',
-      component: DengluB
+      component: DengluB,
+      meta: {
+        title: '登录页面'
+      }
     },
     // 田定茂
     {
       path: '/appliance',
       name: 'appliance',
-      component: Appliance
+      component: Appliance,
+      meta: {
+        title: '家电'
+      }
     },
+    // lfz
     {
       path: '/zuihoufengqiang',
       name: 'Zuihoufengqiang',
@@ -60,16 +80,36 @@ export default new Router({
     {
       path: '/weipinshe',
       name: 'Weipinshe',
-      component: Weipinshe
+      component: Weipinshe,
+      // lfz
+      meta: {
+        cache: false,
+        title: '最后疯抢'
+      }
     },
-    // lfz
     {
       path: '/meizhuang1',
       name: 'Meizhuang1',
       component: Meizhuang1,
-      mete: {
-        cache: false
+      meta: {
+        cache: false,
+        title: '美妆'
       }
-    }
+    },
+    // nmm
+    {
+      path: '/international',
+      name: 'International',
+      component: () => import('@/components/international/international'),
+      meta: {
+        title: '国际'
+      }
+    },
+     // 豆欣欣
+    {
+      path: '/Live',
+      name: 'Live',
+      component: Live
+    },
   ]
 })

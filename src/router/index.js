@@ -8,7 +8,11 @@ import Zuihoufengqiang from '@/components/zuihoufengqiang/zuihoufengqiang'
 import Meizhuang1 from '@/components/meizhuang1/meizhuang1'
 import Register from '@/components/register/register'
 import DengluB from '@/components/register/components/denglub'
+<<<<<<< HEAD
 import JiaJv from '@/components/jiajv/JiaJv'
+=======
+import Weipinshe from '@/components/weipinshe/weipinshe'
+>>>>>>> 3a5144e2076ab0a9950a37d4e0a875a9273fea94
 import Live from '@/components/live/live'
 Vue.use(Router)
 
@@ -72,6 +76,16 @@ export default new Router({
       path: '/zuihoufengqiang',
       name: 'Zuihoufengqiang',
       component: Zuihoufengqiang,
+      mete: {
+        cache: false
+      }
+    },
+    // 翟龙伟
+    {
+      path: '/weipinshe',
+      name: 'Weipinshe',
+      component: Weipinshe,
+      // lfz
       meta: {
         cache: false,
         title: '最后疯抢'

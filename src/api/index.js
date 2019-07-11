@@ -130,6 +130,22 @@ export function getgengduotuijian () {
 export function getYetou () {
   return axios.get('yetou')
 }
+// 翟龙伟 唯品奢接口
+export function getClassname () {
+  return axios.get('classname')
+}
+export function getCataer () {
+  return axios.get('cataer')
+}
+export function getNative () {
+  return axios.get('native')
+}
+export function getFicion () {
+  return axios.get('ficion')
+}
+export function getLiction () {
+  return axios.get('liction')
+}
 // 聂苗苗 国际
 // 轮播图接口
 export function getBanner1 () {

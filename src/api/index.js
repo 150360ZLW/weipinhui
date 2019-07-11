@@ -130,6 +130,22 @@ export function getgengduotuijian () {
 export function getYetou () {
   return axios.get('yetou')
 }
+// 翟龙伟 唯品奢接口
+export function getClassname () {
+  return axios.get('classname')
+}
+export function getCataer () {
+  return axios.get('cataer')
+}
+export function getNative () {
+  return axios.get('native')
+}
+export function getFicion () {
+  return axios.get('ficion')
+}
+export function getLiction () {
+  return axios.get('liction')
+}
 // 聂苗苗 国际
 // 轮播图接口
 export function getBanner1 () {
@@ -155,14 +171,39 @@ export function getGuessLike () {
 export function getOnlyproduct () {
   return axios.get('onlyproduct')
 }
+// 李沛钊
+export function getMuBanner () {
+  return axios.get('Mubanner')
+}
+export function getMuFenLei () {
+  return axios.get('Mufenlei')
+}
 
+export function getJiazuihou () {
+  return axios.get('Jiazuihou')
+}
+export function getJiaJing () {
+  return axios.get('JiaJing')
+}
+export function getKuaiQiang () {
+  return axios.get('jiaKuaiQiang')
+}
+export function getKouBei () {
+  return axios.get('jiaKouBei')
+}
+export function getJiaDaPai () {
+  return axios.get('jiaDaPai')
+}
+export function getJiaXunHuan () {
+  return axios.get('jiaxunhuan')
+}
 
 // 豆欣欣 生活接口
 export function getBanner2 () {
   return axios.get('banner2')
 }
 
-//第二部分
+// 第二部分
 export function getLiveCate () {
   return axios.get('category2')
 }

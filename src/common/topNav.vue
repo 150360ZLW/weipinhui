@@ -15,8 +15,14 @@
                     <router-link tag="li" to="/appliance">
                         <span>家电</span>
                     </router-link>
+                    <router-link tag="li" to="/weipinshe">
+                        <span>唯品·奢</span>
+                    </router-link>
                     <router-link tag="li" to="/international">
                         <span>国际</span>
+                    </router-link>
+                    <router-link tag="li" to="/jiajv">
+                        <span>家居</span>
                     </router-link>
                     <router-link tag="li" to="/live">
                         <span>生活</span>

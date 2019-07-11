@@ -68,11 +68,11 @@ export default {
     justify-content: space-evenly;
     > p {
       padding-left: 10px;
-      font-size: 18px;
+      font-size: 24px;
     }
     .zhekou {
       padding-left: 8px;
-      font-size: 14px;
+      font-size: 20px;
     }
   }
 }

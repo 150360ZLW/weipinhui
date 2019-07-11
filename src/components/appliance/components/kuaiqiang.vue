@@ -39,7 +39,7 @@ export default {
   padding-top: 80px;
 }
 .box1 {
-  width: 25%;
+  width: 24%;
 }
 .box1 img:nth-child(1) {
   width: 100%;

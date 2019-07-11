@@ -8,6 +8,7 @@ import Zuihoufengqiang from '@/components/zuihoufengqiang/zuihoufengqiang'
 import Meizhuang1 from '@/components/meizhuang1/meizhuang1'
 import Register from '@/components/register/register'
 import DengluB from '@/components/register/components/denglub'
+import JiaJv from '@/components/jiajv/JiaJv'
 Vue.use(Router)
 
 export default new Router({
@@ -73,6 +74,17 @@ export default new Router({
       meta: {
         cache: false,
         title: '最后疯抢'
+      }
+    },
+
+    // 李沛钊
+    {
+      path: '/jiajv',
+      name: 'jiajv',
+      component: JiaJv,
+      meta: {
+        cache: false,
+        title: '家居'
       }
     },
     {

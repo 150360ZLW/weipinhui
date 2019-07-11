@@ -18,6 +18,9 @@
                     <router-link tag="li" to="/international">
                         <span>国际</span>
                     </router-link>
+                    <router-link tag="li" to="/jiajv">
+                        <span>家居</span>
+                    </router-link>
                 </ul>
             </div>
             <i class="iconfont icon-arrow-bottom zzNav-dw"></i>

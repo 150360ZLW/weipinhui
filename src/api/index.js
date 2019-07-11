@@ -155,3 +155,29 @@ export function getGuessLike () {
 export function getOnlyproduct () {
   return axios.get('onlyproduct')
 }
+// 李沛钊
+export function getMuBanner () {
+  return axios.get('Mubanner')
+}
+export function getMuFenLei () {
+  return axios.get('Mufenlei')
+}
+
+export function getJiazuihou () {
+  return axios.get('Jiazuihou')
+}
+export function getJiaJing () {
+  return axios.get('JiaJing')
+}
+export function getKuaiQiang () {
+  return axios.get('jiaKuaiQiang')
+}
+export function getKouBei () {
+  return axios.get('jiaKouBei')
+}
+export function getJiaDaPai () {
+  return axios.get('jiaDaPai')
+}
+export function getJiaXunHuan () {
+  return axios.get('jiaxunhuan')
+}

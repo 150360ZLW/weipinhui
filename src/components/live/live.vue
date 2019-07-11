@@ -1,7 +1,7 @@
 <template>
     <div>
-        <Search></Search>
-       <TopNav></TopNav>
+      <Search></Search>
+      <TopNav></TopNav>
       <div class="qblife">
         <LiveBan></LiveBan>
         <!-- 轮播图 -->

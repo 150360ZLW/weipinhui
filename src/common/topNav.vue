@@ -38,6 +38,10 @@
         display: flex;
         z-index: 9990;
     }
+    .topNav>i {
+        width: 50px;
+        height: 54px;
+    }
    ::-webkit-scrollbar{
        width: 0;
        height: 0;

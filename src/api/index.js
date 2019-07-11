@@ -155,3 +155,34 @@ export function getGuessLike () {
 export function getOnlyproduct () {
   return axios.get('onlyproduct')
 }
+
+
+// 豆欣欣 生活接口
+export function getBanner2 () {
+  return axios.get('banner2')
+}
+
+//第二部分
+export function getLiveCate () {
+  return axios.get('category2')
+}
+
+// 第三部分
+export function getLiveThree () {
+  return axios.get('three')
+}
+
+// 第四部分
+export function getLiveFour () {
+  return axios.get('four')
+}
+
+// 第五部分
+export function getLiveFive () {
+  return axios.get('five')
+}
+
+// 第六部分
+export function getLiveSix () {
+  return axios.get('six')
+}

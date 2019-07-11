@@ -8,11 +8,8 @@ import Zuihoufengqiang from '@/components/zuihoufengqiang/zuihoufengqiang'
 import Meizhuang1 from '@/components/meizhuang1/meizhuang1'
 import Register from '@/components/register/register'
 import DengluB from '@/components/register/components/denglub'
-<<<<<<< HEAD
 import JiaJv from '@/components/jiajv/JiaJv'
-=======
 import Live from '@/components/live/live'
->>>>>>> ae248473bde68498c5e6ffdbd02c4bd7e51b3035
 Vue.use(Router)
 
 export default new Router({
@@ -109,11 +106,11 @@ export default new Router({
         title: '国际'
       }
     },
-     // 豆欣欣
+    // 豆欣欣
     {
       path: '/Live',
       name: 'Live',
       component: Live
-    },
+    }
   ]
 })

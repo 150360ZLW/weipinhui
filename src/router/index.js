@@ -15,7 +15,10 @@ export default new Router({
     {
       path: '/home',
       name: 'home',
-      component: Home
+      component: Home,
+      meta: {
+        title: '首页-今日推荐'
+      }
     },
     {
       path: '*',
@@ -24,35 +27,51 @@ export default new Router({
     {
       path: '/fransnana',
       name: 'fransnana',
-      component: Fransnana
+      component: Fransnana,
+      meta: {
+        title: '母婴'
+      }
     },
     {
       path: '/classify',
       name: 'classify',
-      component: Classify
+      component: Classify,
+      meta: {
+        title: '唯品会VIP特卖会'
+      }
     },
     {
       path: '/register',
       name: 'register',
-      component: Register
+      component: Register,
+      meta: {
+        title: '登录页面'
+      }
     },
     {
       path: '/denglub',
       name: 'denglub',
-      component: DengluB
+      component: DengluB,
+      meta: {
+        title: '登录页面'
+      }
     },
     // 田定茂
     {
       path: '/appliance',
       name: 'appliance',
-      component: Appliance
+      component: Appliance,
+      meta: {
+        title: '家电'
+      }
     },
     {
       path: '/zuihoufengqiang',
       name: 'Zuihoufengqiang',
       component: Zuihoufengqiang,
-      mete: {
-        cache: false
+      meta: {
+        cache: false,
+        title: '最后疯抢'
       }
     },
     // lfz
@@ -60,8 +79,9 @@ export default new Router({
       path: '/meizhuang1',
       name: 'Meizhuang1',
       component: Meizhuang1,
-      mete: {
-        cache: false
+      meta: {
+        cache: false,
+        title: '美妆'
       }
     }
   ]

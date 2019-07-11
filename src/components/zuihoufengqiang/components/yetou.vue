@@ -44,8 +44,5 @@ export default {
     .zuihoufengqiang1 img{
         width: 100%;
         display: block;
-        // position: absolute;
-        // left: 0;
-        // top: 0;
     }
 </style>

@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-axios.defaults.baseURL = 'http://127.0.0.1:3000/main/'
+axios.defaults.baseURL = 'http://192.168.137.1:3000/main/'
 
 // 首页开始
 // 对返回的数据进行数据拦截

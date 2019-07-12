@@ -43,22 +43,22 @@ export default {
   .sf-content {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     >li {
       width: 25%;
       display: flex;
       flex-direction: column;
       text-align: center;
       .yh {
-        font-size:12px;
+        font-size: 24px;
         background:rgb(255, 46, 119);
         color:#fff;
-        border-radius:5px;
-        padding:0 2px;
+        border-radius:10px;
+        padding:0 8px;
       }
       >.imgtitle {
-        width: 44px;
-        height: 22px;
+        width: 88px;
+        height: 44px;
         margin: 0 auto;
       }
       img {

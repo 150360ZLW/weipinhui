@@ -20,9 +20,9 @@ import { setInterval } from 'timers'
 import {getLiveFour} from '@/api'
 export default {
   async created () {
-    this.timer = getTimer('2019-7-11 24:00')
+    this.timer = getTimer('2019-7-12 24:00')
     setInterval(() => {
-      this.timer = getTimer('2019-7-11 24:00')
+      this.timer = getTimer('2019-7-12 24:00')
     }, 1000)
     this.cateList = await getLiveFour()
   },

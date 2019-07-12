@@ -9,8 +9,14 @@
                     <router-link tag="li" to="/zuihoufengqiang">
                         <span>最后疯抢</span>
                     </router-link>
+                    <router-link tag="li" to="fransnana">
+                        <span>母婴</span>
+                    </router-link>
                     <router-link tag="li" to="/meizhuang1">
                         <span>美妆</span>
+                    </router-link>
+                    <router-link tag="li" to="/JiaJv">
+                        <span>家居</span>
                     </router-link>
                     <router-link tag="li" to="/appliance">
                         <span>家电</span>

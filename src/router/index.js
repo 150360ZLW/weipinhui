@@ -73,8 +73,8 @@ export default new Router({
       path: '/zuihoufengqiang',
       name: 'Zuihoufengqiang',
       component: Zuihoufengqiang,
-      mete: {
-        cache: false
+      meta: {
+        title: '最后疯抢'
       }
     },
     // 翟龙伟
@@ -95,7 +95,6 @@ export default new Router({
       name: 'jiajv',
       component: JiaJv,
       meta: {
-        cache: false,
         title: '家居'
       }
     },
@@ -104,7 +103,6 @@ export default new Router({
       name: 'Meizhuang1',
       component: Meizhuang1,
       meta: {
-        cache: false,
         title: '美妆'
       }
     },
@@ -121,7 +119,10 @@ export default new Router({
     {
       path: '/Live',
       name: 'Live',
-      component: Live
+      component: Live,
+      meta: {
+        title: '生活'
+      }
     }
   ]
 })
